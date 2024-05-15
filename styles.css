@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: sans-serif;
+  margin:0;
+}
+button {
+  border-radius: 10px ;
+}
+html {
+  min-width: 550px;
+  position: relative;
+}
+
+/*Navbar below----------------------*/
+.nav1 {
+  display:flex;
+  justify-content: space-between;
+  height:90px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+.Colgate-Nav {
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top:0;
+  transition: background-color 0.2s ease-in-out;
+  background-color: rgb(204, 34, 34)
+}
+.Colgate-Nav.scrolled {
+  background-color: rgb(204, 34, 34);
+  opacity: 0.98;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top:26px
+}
+.navlinks {
+  display:flex;
+  justify-content: space-around;
+
+}
+.navlinks li {
+  margin:0 10px;
+  list-style: none;
+}
+.navlinks a {
+  color:white;
+  font-weight: 700;
+}
+.navlinks a:hover {
+  transition: all 0.2s ease;
+  color:rgb(255, 174, 174);
+}
+.colgate-logo {
+  margin-top:30px;
+}
+.logo-text {
+  color:white;
+  font-size: 30px;
+}
+.nlists {
+  margin-right:20px;
+  margin-top:10px;
+}
+.navbuttons button {
+  border:2px solid white;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+}
+.signupbtn {
+  background-color: rgb(204, 34, 34);
+}
+.signupbtn a {
+  color:white;
+}
+.signupbtn:hover {
+  transition: all 0.2s ease;
+  background-color: rgb(255, 175, 175);
+}
+.signinbtn {
+  background-color:rgb(255,255,255);
+}
+.signinbtn a{
+  color:rgb(0, 0, 0);
+}
+.signinbtn:hover {
+  transition: all 0.2s ease;
+  background-color: rgb(212, 212, 212);
+}
+/*Hero Below--------------------------------------------*/
+.hero {
+  background-color: rgb(204, 34, 34);
+  padding-bottom: 100px;
+  padding-top:100px;
+  width:100%;
+  min-height: 100vh;
+}
+.hero-header h1 ,.hero-desc p{
+  color:white;
+}
+.hero-header h1 {
+  font-size: 50px;
+}
+.hero-desc p {
+  max-width: 70%;
+  font-size: 20px;
+}
+.hero-desc {
+  margin-top:10px;
+  display: grid;
+  justify-content: center;
+}
+.hero-text-container {
+  display:flex;
+  justify-content: center;
+}
+.hero-texttags {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  padding-left:10px;
+}
+.herobutton {
+  display: grid;
+  justify-content: center;
+  margin-top:40px
+
+}
+.btnH {
+  background-color: white;
+  width:190px;
+  height: 40px;
+  border: 2px solid white;
+  background-color: rgb(255,255,255);
+
+}
+.btnH:hover {
+  transition: all 0.2s ease;
+  background-color: rgb(212, 212, 212)
+}
+.btnH a {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+/*Start of product info---------------------------------*/
+
+.products-container {
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  padding-top:5%;
+  padding-bottom:5%;
+
+}
+.products-lists,.productlist2 {
+  display:flex;
+  justify-content: center;
+  overflow-x: hidden;
+  padding-top:5%;
+}
+.product {
+  width:300px;
+}
+.prod-header h1 {
+  display:flex;
+  justify-content: center;
+}
